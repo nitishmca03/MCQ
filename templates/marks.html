@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Thank You</title>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='marks.css')}}">
+    </head>
+    <body>
+        <div id="head">
+            <h1>Assesment</h1>
+        </div>
+            <div class="marks">
+                <h2>Result</h2>
+                <div class="result">
+                    <div class="heading1">
+                    <h2>Thanks {{name}} for using our platform</h2>
+                </div>
+                <div class="heading2">
+                    <h3>You have scored {{marks}} out of 10</h3>
+                </div>
+                </div>
+            </div>
+    </body>
+</html>

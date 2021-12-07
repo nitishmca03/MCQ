@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oxygen', sans-serif;
+}
+body{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(204, 255, 229);
+}
+.nav{
+    /* border:2px solid blue; */
+    /* margin:100px; */
+    /* padding:0.5em; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #8cb665;
+    border-radius:0.3cm;
+    box-shadow: 8px 8px 8px 8px #000000;
+    margin:0 0 5px 0;
+
+}
+.ques-no{
+    /* border: 2px solid blue; */
+    text-align: center;
+    padding:0.8em;
+    padding-top: 13px;
+    font-size: 1.2em;
+}
+.timer
+{
+    /* border: 2px solid blue; */
+    display:flex;
+    flex-wrap: wrap;
+    /* margin:2px; */
+    padding:0.8em;
+    font-size: 1.2em;
+    background-color: rgb(216, 60, 60);
+    color:white;
+    border-radius:0.3cm;
+}
+.timer p{
+    
+    margin:2px;
+}
+.main{
+    
+    display: flex;
+    flex-direction: column;
+    margin:50px;
+}
+.mcq-box
+{
+    /* border: 2px solid blue; */
+    padding: 0.8em;
+    background-color: rgb(20, 20, 20);
+    opacity: 0.96;
+    border-radius: 0.3cm;
+    box-shadow: 8px 8px 8px 8px #000000;
+}
+.mcq-content
+{
+    /* border: 2px solid blue; */
+    padding: 0.8em;
+}
+.question
+{
+    /* border: 2px solid blue; */
+    padding:0.8em;
+    font-size: 1.5em;
+    border-radius: 0.3cm;
+    background-color: aquamarine;
+}
+.options-box
+{
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: column;
+    
+    font-size: 1.1em;
+
+}
+
+.options
+{
+    /* border: 2px solid blue; */
+    margin:0.5em 0em 0.5em 0em;
+    padding: 0.3em;
+    font-size: 1.3em;
+    border-radius: 0.3cm;
+    background-color: rgb(243, 232, 219);
+    /* display: block; */
+}
+.buttons
+{
+    /* border:2px solid blue; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0.5em;
+    margin:0 0.8em 0 0.8em;
+    text-decoration:none;
+}
+.buttons a{
+    /* border:2px solid blue; */
+    text-decoration: none;
+    font-size: 1.4em;
+    background-color: rgb(4, 138, 4);
+    color:white;
+    padding: 0.5em;
+    border-radius: 0.3cm;
+    box-shadow: 3px 3px 3px 3px #000000;
+}
+.buttons a:hover{
+    background-color: rgb(218, 36, 36);
+    border-radius: 0.3cm;
+    color:white;
+    box-shadow: 3px 3px 3px 3px #000000;
+}
+input[type="submit"]
+{
+    /* border:2px solid blue; */
+    font-size:1.3em;
+    padding: 0.5em;
+    background-color: red;
+    color:white;
+    border-radius: 0.3cm;
+    box-shadow: 3px 3px 3px 3px #000000;
+    
+}
+
+input[type="submit"]:hover{
+    background-color: rgb(73, 73, 182);
+    border-radius: 0.3cm;
+    box-shadow: 3px 3px 3px 3px #000000;
+}

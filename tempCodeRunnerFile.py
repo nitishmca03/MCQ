@@ -1,0 +1,1 @@
+session['marks'] += 1

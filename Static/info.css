@@ -1,0 +1,118 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Oxygen', sans-serif;
+
+}
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    /* background: #ffe3fb; */
+    
+
+}
+.instruction-main
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:40px;
+    width: 100%;
+}
+
+.instructions
+{
+    display: flex;
+    flex-direction: column;
+    /* border:2px solid blue; */
+    margin:0em 1em 1em 1em;
+    /*padding:1em;*/
+    justify-content: center;
+    align-items: center;
+    /*height:50vh;*/
+    /* background-color: rgb(199, 247, 247); */
+    background-color: rgb(20, 20, 20);
+    border-radius: 0.3cm;
+    box-shadow: 8px 8px 8px 8px #000000;
+}
+.instruction-main h1{
+    /* border:2px solid blue; */
+    margin: 0px;
+    text-align: center;
+    background-color: #666;
+    color:white;
+    font-size: 3em;
+    box-shadow: 8px 8px 8px 8px #000000;
+    margin:0em 0.32em 0.6em 0.32em;
+    border-radius: 0.3cm;
+}
+.instructions h2{
+    border:2px solid black;
+    text-align: center;
+    width:100%;
+    padding:0.3em;
+    font-size: 2em;
+    background-color: #8cb665;
+    /* background-color: white; */
+    border-radius: 0.3cm;
+    margin-bottom:0.5em;
+}
+.instructions p{
+    padding:1em;
+    border:2px solid black;
+    width: 100%;
+    /* align-items: center; */
+    border-radius: 0.3cm;
+    background-color: rgb(243, 232, 219);
+}
+.ins-content
+{
+    border:2px solid white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.3cm;
+    width: 100%;
+    align-content: center;
+    
+}
+form input[type="submit"]
+{
+    font-size:1.3em;
+    border-radius: 0.2cm;
+    width: 62%;
+    display: flex;
+    flex-direction: column;
+    padding: 0.3em;
+    background-color: rgb(218, 36, 36);
+    color: white;
+    border: 2px solid black;
+    box-shadow: 3px 3px 3px 3px #000000;
+    margin: 1em;
+   
+}
+form input[type="submit"]:hover
+{
+    cursor: pointer;
+    font-size:1.3em;
+    border-radius: 0.2cm;
+    color: white;
+    background-color: rgb(4, 138, 4);
+}
+.footer{
+    margin: auto;
+    /* border: 1px solid blue; */
+    color:white;
+    font-size: 1.2em;
+    text-align: center;
+    /* margin-left: 50px; */
+}
+.footer h5{
+    /* border:2px solid red; */
+    
+    width: max-content;
+    
+}
